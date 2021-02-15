@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git filter-branch --env-filter '
+git filter-branch  -f --env-filter '
 OLD_EMAIL="53084585+iceka@users.noreply.github.com"
 CORRECT_NAME="Lucao Adam"
 CORRECT_EMAIL="lucoadam@gmail.com"
