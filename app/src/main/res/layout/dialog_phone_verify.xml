@@ -19,7 +19,7 @@
         android:layout_marginBottom="8dp"
         android:textColor="@android:color/black"
         android:textStyle="bold"
-        tools:text="+62 858-1499-3643" />
+        tools:text="+977 981 012 6615" />
 
     <TextView
         android:layout_width="wrap_content"

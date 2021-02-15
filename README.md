@@ -1,5 +1,5 @@
 # WhatsAppClone
-WhatsApp Clone With FireBase.
+NCC Messenger With FireBase.
 
 Give some appreciation by clicking star the repo to support the project
 

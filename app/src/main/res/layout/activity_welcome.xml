@@ -14,8 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:gravity="center_horizontal"
-        android:text="Welcome to WhatsApp"
-        android:textColor="#00897b"
+        android:text="Welcome to NCC Messenger"
+        android:textColor="#d50000"
         android:textSize="28sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -58,7 +58,7 @@
             android:id="@+id/btn_agree_tos"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:background="#00CC3F"
+            android:background="#ff9e40"
             android:paddingLeft="60dp"
             android:paddingRight="60dp"
             android:text="Agree and continue"
@@ -84,8 +84,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="C E K A"
-            android:textColor="#2ECD69"
+            android:text="N C C"
+            android:textColor="#ff9e40"
             android:textStyle="bold" />
 
     </LinearLayout>

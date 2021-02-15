@@ -140,7 +140,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
-            android:backgroundTint="#00897b"
+            android:backgroundTint="#ff8a50"
             android:src="@drawable/ic_keyboard_voice_black_24dp" />
     </RelativeLayout>
 

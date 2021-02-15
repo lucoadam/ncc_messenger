@@ -35,13 +35,13 @@
             android:minHeight="?attr/actionBarSize"
             app:tabBackground="@color/colorPrimary"
             app:tabGravity="fill"
-            app:tabIconTint="#83AFA9"
+            app:tabIconTint="#fafafa"
             app:tabIndicatorColor="@android:color/white"
             app:tabIndicatorHeight="4dp"
             app:tabMode="fixed"
             app:tabSelectedTextColor="@android:color/white"
             app:tabTextAppearance="@style/TabLayoutTextStyle"
-            app:tabTextColor="#83AFA9" />
+            app:tabTextColor="#fafafa" />
     </com.google.android.material.appbar.AppBarLayout>
 
 

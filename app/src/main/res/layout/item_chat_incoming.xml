@@ -5,6 +5,7 @@
     android:id="@+id/constraint_layout_chat_out"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="2dp"
     android:layout_marginRight="30dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -21,16 +22,26 @@
             android:layout_height="wrap_content"
             app:layout_constraintRight_toLeftOf="@id/tv_time_chat_incoming"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/layout_first">
+            app:layout_constraintTop_toTopOf="parent">
+
             <!--            app:layout_constraintEnd_toStartOf="@id/tv_time_chat_outgoing"-->
 
             <TextView
                 android:id="@+id/tv_chat_incoming"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ini adalah yanhgjhskfjfasdfa bisa gini gangerti "
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hi  how are you these days and what  how are you these days and what are you doing being away from the awaful"
                 android:textColor="@android:color/black" />
         </LinearLayout>
+
+        <androidx.constraintlayout.widget.Barrier
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:id="@+id/barrier1"
+            app:barrierDirection="bottom"
+
+            />
 
         <TextView
             android:id="@+id/tv_time_chat_incoming"
@@ -38,9 +49,8 @@
             android:layout_height="wrap_content"
             android:text="10:10 PM"
             android:textSize="12sp"
-            android:layout_marginLeft="6dp"
-            app:layout_constraintBottom_toBottomOf="@id/layout_first"
-            app:layout_constraintRight_toRightOf="@id/layout_first" />
+            app:layout_constraintTop_toBottomOf="@id/layout_chat_incoming"
+            app:layout_constraintLeft_toLeftOf="@+id/layout_chat_incoming"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
